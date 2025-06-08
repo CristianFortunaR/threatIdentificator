@@ -2,7 +2,7 @@
 
 ## 📘 Overview
 
-This project explores the full potential of edge computing using NVIDIA's Jetson AGX Orin to detect real-time threats through deep learning models. By leveraging Edge AI, we eliminate latency, enabling immediate response to critical situations such as intrusions, weapons detection, or hazardous objects.
+This project explores the full potential of edge computing using NVIDIA's Jetson AGX Orin to detect real-time threats through deep learning models. By leveraging Edge AI, we eliminate latency, enabling immediate response to critical situations such as intrusions, weapons detection, or dangerous objects.
 
 ---
 
