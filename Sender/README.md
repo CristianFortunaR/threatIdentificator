@@ -29,17 +29,27 @@ Para Iniciar o streaming da cam, nesse caso uma webcam(0)
 ```bash
 python sender.py [OPÇÕES]
 ```
-`Opções` 
-`--ip <endereço IP>`: opcional pois define um endereço de IP por Padrão ja temos um endereço no codigo
-`--port <numero da porta>`: Opicional, defina uma porta de comunicação TCP, no codigo o padrão é `8000`
+**Opções** 
+```bash
+--ip <endereço IP>
+```
+Opicional pois define um endereço de IP por Padrão ja temos um endereço no codigo
+
+```bash
+--port <numero da porta>
+```
+Opicional, defina uma porta de comunicação TCP, no codigo o padrão é `8000`
 
 **Exemplos**
 Usando porta e IP padrão
-`python sender.py`
+```bash
+python sender.py
+```
 
 Especificando Porta e IP diferentes
-`python sender.py --ip 192.168.1.100 --port 7000`
-
+```bash 
+python sender.py --ip 192.168.1.100 --port 7000
+```
 **Interrompendo o Script**
 basta precionar a tecla `q` enquanto a janela `PC - Enviando` estiver aberta.
 
