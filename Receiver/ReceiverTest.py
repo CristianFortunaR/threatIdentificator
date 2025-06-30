@@ -10,6 +10,7 @@ IP_JETSON = '0.0.0.0'
 PORT = 8000
 
 # Carrega o modelo YOLOv5/8
+# Ou Carregar o modelo best.pt
 model = YOLO('yolov8n.pt')
 
 # Dicionário para armazenar informações sobre cada cliente conectado
