@@ -10,6 +10,7 @@ IP_JETSON = '0.0.0.0'
 PORT = 8000
 
 # Carrega o modelo YOLOv5/8
+# carregar o modelo treinado em maquina best.pt
 model = YOLO('yolov8n.pt')
 
 def handle_client(conn, addr):
